@@ -10,9 +10,24 @@
 </head>
 
 <body>
+    <div class="Navigation">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
     <div class="container">
         <h1>My Todo list</h1>
-
+        <div class="inputSection">
+            <input type="text" id="task_input" placeholder="Type your task here">
+            <button id="btn1">Add Task</button>
+        </div>
+        <div class="taskSection">
+            <ul id="taskList"></ul>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

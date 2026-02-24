@@ -1,0 +1,108 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation */
+.Navigation {
+  background: #222;
+  padding: 15px 0;
+}
+
+.Navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.Navigation li {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.Navigation li:hover {
+  color: #1cc88a;
+}
+
+/* Main Container */
+.container {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Section */
+.inputSection {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#task_input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+#task_input:focus {
+  border-color: #4e73df;
+}
+
+/* Button */
+#btn1 {
+  padding: 10px 15px;
+  border: none;
+  background: #4e73df;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn1:hover {
+  background: #2e59d9;
+}
+
+/* Task Section */
+.taskSection ul {
+  list-style: none;
+}
+
+.taskSection li {
+  background: #f8f9fc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid #4e73df;
+}
